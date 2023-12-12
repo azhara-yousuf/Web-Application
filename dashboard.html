@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Dashboard</title>
+    <link rel="stylesheet" href="dashboardstyles.css">
+    <link rel="icon" href="images/shopping.png" type="image/x-icon">
+    <link rel="icon" href="logo.png" type="image/x-icon">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <div class="header">
+        <div class="title-section">
+            <div class="logo">
+                <img src="images/shopping.png" alt="Certiflix logo">
+            </div>
+            <h1>CERTIFLIX</h1>
+        </div>
+        <div class="user-profile">
+            <img src="images/usericon.png" alt="Profile Picture">
+            <span class="username"><?php echo htmlspecialchars($userName); ?></span>
+            <div class="profile-menu">
+                <ul>
+                    <li><a href="profile.php">My products</a></li>
+                    <li><a href="progress.php">Upload</a></li>
+                    <li><a href="progress.php">Help</a></li>
+                    <li><a href="index.html">Logout</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content Section -->
+    <div class="main-content">
+            <a href="riddle.php" class="category-button">
+            <img src="images/snacks.jpg" alt="Snacks Icon">Snacks</a>
+            <a href="electronics.html" class="category-button">
+            <img src="images/electronics.jpg" alt="Electronics Icon">Electronics</a>
+            <a href="" class="category-button">
+            <img src="images/others.png" alt="Others Icon">Others</a>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer">
+        <a href="https://www.facebook.com/YourFacebookPage" class="social-icon">
+            <img src="images/facebook.png" alt="Facebook Icon">
+        </a> <!-- Facebook -->
+
+        <a href="https://twitter.com/YourTwitterProfile" class="social-icon">
+            <img src="images/twitter.png" alt="Twitter Icon">
+        </a> <!-- Twitter -->
+
+        <a href="https://www.instagram.com/YourInstagramProfile" class="social-icon">
+            <img src="images/instagram.png" alt="Instagram Icon">
+        </a> <!-- Instagram -->
+
+        <p>&copy; <?php echo date("Y"); ?> Certiflix. All rights reserved.</p>
+    </div>
+</body>
+
+</html>

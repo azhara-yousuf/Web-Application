@@ -1,0 +1,140 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgba(2,2,56,0.8);
+    padding: 15px;
+    color: #fff;
+}
+
+.title-section {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 10px; /* Adjust the margin as needed to create spacing between the logo and the title */
+}
+
+.logo img {
+    width: 60px; /* Set the width of the logo image */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.user-profile {
+    position: relative;
+    cursor: pointer;
+}
+
+.user-profile img {
+    width: 40px; /* Adjust the width to the desired size */
+    height: 40px; /* Adjust the height to the desired size */
+    border-radius: 30%; /* Optional: Makes the image round */
+}
+
+.profile-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+.user-profile:hover .profile-menu {
+    display: block;
+    background-color:rgb(197, 215, 249);
+}
+
+.profile-menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.profile-menu li {
+    margin-bottom: 10px;
+    color:cornsilk;
+}
+
+.profile-menu a {
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    font-size:medium;
+    transition: color 0.3s;
+}
+
+.profile-menu a:hover {
+    color: #007bff;
+}
+
+.profile-menu ul {
+    list-style: none;
+    padding: 0;
+    
+}
+
+.profile-menu ul li {
+    margin-bottom: 10px;
+}
+.main-content {
+    padding-left:0;
+    padding-right: 350px;
+    padding-top: 300px;
+    padding-bottom: 200px;
+    gap: 20px; /* Adjust the gap between buttons */
+    margin-top: 0px;
+    justify-content: center;
+    background-image: url('images/dash1.png');
+    background-size: cover; /* Ensure the background image covers the entire container */
+    background-position:right;
+}
+
+.category-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgba(30, 30, 145, 0.5);
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    padding: 50px 50px 20px 20px;
+    font-size: 30px; /* Adjust the font size as needed */
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.category-button img {
+    border-radius: 30px;
+    margin-right: 10px; /* Adjust the margin between image and text */
+    max-width: 150px; /* Adjust the maximum width of the image */
+    max-height: 150px; /* Adjust the maximum height of the image */
+}
+
+.category-button:hover {
+    background-color: #0056b3; /* Change the background color on hover */
+}
+
+/* Footer Styles */
+.lastsec{
+    padding-bottom: 300px;
+    padding-top:100px;
+}
+
+
+.footer {
+    text-align: center;
+    color: #fff;
+    padding-top:100px;
+    padding: 20px;
+    margin-bottom: 100px;
+    background-color:rgba(2,2,56,0.8);
+}
+
+.social-icon img {
+    width: 30px;
+    margin-right: 10px;
+}
