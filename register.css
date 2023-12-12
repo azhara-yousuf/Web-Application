@@ -1,0 +1,91 @@
+body {
+    
+    font-family: Arial, sans-serif;
+    background-color:lavenderblush;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('images/register.jpg') center/cover no-repeat fixed;
+}
+
+
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 100px;
+    border-radius: 58px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    vertical-align:top;
+
+}
+
+.form-group {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+h1{
+    font-family:'Times New Roman';
+    font-size:xx-large;
+}
+
+.form-group label {
+    width: 150px; 
+    text-align: left;
+    margin-right: 20px;
+    font-weight: bold;
+    font-family:'Lucida Sans';
+}
+
+.form-group input{
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+input, checkbox {
+    align-self: self-start;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+}
+
+.password-container {
+    position: relative;
+}
+
+.toggle-password {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+.required{
+    color:red;
+    vertical-align: top;
+    margin-left:5px;
+    margin-right: 2px;
+}
